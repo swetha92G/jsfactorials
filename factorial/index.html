@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="demo" class="paragraph"></div>
+    <script type="text/javascript">
+        function factorial(num) {
+            if (num == 0) {
+                return 1
+            }
+            else {
+                return num * factorial(num - 1)
+            }
+        }
+        let number = 5
+        console.log(factorial(number))
+
+document.getElementById("demo").innerHTML ="Factorial"
+        
+    </script>
+</body>
+
+</html>
